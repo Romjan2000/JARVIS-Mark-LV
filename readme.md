@@ -17,8 +17,10 @@ Set up and launch JARVIS on any PC with a single terminal command:
 ### 🪟 Windows (PowerShell)
 Open PowerShell (as regular user) and run:
 ```powershell
-powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/Romjan2000/JARVIS-Mark-LV/main/install.ps1 | iex"
+iex (irm https://raw.githubusercontent.com/Romjan2000/JARVIS-Mark-LV/main/install.ps1)
 ```
+*(Or from Command Prompt / Run dialog: `powershell -ExecutionPolicy Bypass -Command "iex (irm https://raw.githubusercontent.com/Romjan2000/JARVIS-Mark-LV/main/install.ps1)"`)*
+
 
 ### 🍎 macOS & 🐧 Linux (Terminal)
 Open Terminal and run:
